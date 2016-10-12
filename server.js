@@ -18,7 +18,7 @@ app.use(middleware.logger);
 app.use(express.static(__dirname + '/public'));
 
 app.get('/about', function (req, res) {
-	res.send('Hola about');
+	res.send('Hola acerca');
 })
 
 
